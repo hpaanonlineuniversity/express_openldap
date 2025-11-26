@@ -19,7 +19,7 @@ cn: Ye Yint Oo
 sn: Oo
 givenname: Ye Yint
 mail: yeyintoo@example.com
-userpassword: {SSHA}hashedpassword456
+userpassword:password456
 uidnumber: 1001
 gidnumber: 1000
 homedirectory: /home/yeyintoo
@@ -39,7 +39,7 @@ cn: Myat Shwe Soe
 sn: Soe
 givenname: Myat Shwe
 mail: myatshwesoe@example.com
-userpassword: {SSHA}hashedpassword123
+userpassword: password123
 uidnumber: 1000
 gidnumber: 1000
 homedirectory: /home/myatshwesoe
@@ -59,7 +59,7 @@ cn: Saw Tint Kyaw
 sn: Kyaw
 givenname: Saw Tint
 mail: sawtintkyaw@example.com
-userpassword: {SSHA}hashedpassword789
+userpassword: password789
 uidnumber: 1002
 gidnumber: 1000
 homedirectory: /home/sawtintkyaw
@@ -79,7 +79,7 @@ cn: Thet Zaw Min
 sn: Min
 givenname: Thet Zaw
 mail: thetzawmin@example.com
-userpassword: {SSHA}hashedpasswordabc
+userpassword: passwordabc
 uidnumber: 1003
 gidnumber: 1000
 homedirectory: /home/thetzawmin
@@ -99,7 +99,7 @@ cn: Ye Htet Zaw
 sn: Zaw
 givenname: Ye Htet
 mail: yehtetzaw@example.com
-userpassword: {SSHA}hashedpassworddef
+userpassword: passworddef
 uidnumber: 1004
 gidnumber: 1000
 homedirectory: /home/yehtetzaw

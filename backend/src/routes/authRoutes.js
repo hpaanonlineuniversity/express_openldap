@@ -8,6 +8,9 @@ const router = express.Router();
 router.post('/login', async (req, res) => {
   try {
     const { username, password } = req.body;
+    
+    console.log("username",username);
+    console.log("password", password);
 
     if (!username || !password) {
       return res.status(400).json({
