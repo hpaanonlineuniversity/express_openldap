@@ -5,14 +5,14 @@
 # Generated from MongoDB to OpenLDAP
 
 # Base Organizational Unit
-dn: ou=users,dc=example,dc=com
+dn: ou=builtin,dc=example,dc=com
 objectclass: organizationalUnit
 objectclass: top
-ou: users
+ou: builtin
 description: example Users Organizational Unit
 
 # User: Ye Yint Oo (Admin)
-dn: uid=yeyintoo,ou=users,dc=example,dc=com
+dn: uid=yeyintoo,ou=builtin,dc=example,dc=com
 objectclass: inetOrgPerson
 objectclass: posixAccount
 objectclass: exampleUser
@@ -32,7 +32,7 @@ profilePicture: https://example.com/profiles/yeyintoo.jpg
 description: System Administrator
 
 # User: Myat Shwe Soe
-dn: uid=myatshwesoe,ou=users,dc=example,dc=com
+dn: uid=myatshwesoe,ou=builtin,dc=example,dc=com
 objectclass: inetOrgPerson
 objectclass: posixAccount
 objectclass: exampleUser
@@ -52,7 +52,7 @@ profilePicture: https://example.com/profiles/myatshwesoe.jpg
 description: Regular User
 
 # User: Saw Tint Kyaw
-dn: uid=sawtintkyaw,ou=users,dc=example,dc=com
+dn: uid=sawtintkyaw,ou=builtin,dc=example,dc=com
 objectclass: inetOrgPerson
 objectclass: posixAccount
 objectclass: exampleUser
@@ -72,7 +72,7 @@ profilePicture: https://example.com/profiles/sawtintkyaw.jpg
 description: Regular User
 
 # User: Thet Zaw Min (Admin)
-dn: uid=thetzawmin,ou=users,dc=example,dc=com
+dn: uid=thetzawmin,ou=builtin,dc=example,dc=com
 objectclass: inetOrgPerson
 objectclass: posixAccount
 objectclass: exampleUser
@@ -92,7 +92,7 @@ profilePicture: https://example.com/profiles/thetzawmin.jpg
 description: System Administrator
 
 # User: Ye Htet Zaw
-dn: uid=yehtetzaw,ou=users,dc=example,dc=com
+dn: uid=yehtetzaw,ou=builtin,dc=example,dc=com
 objectclass: inetOrgPerson
 objectclass: posixAccount
 objectclass: exampleUser

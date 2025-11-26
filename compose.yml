@@ -19,6 +19,7 @@ services:
       - LDAP_BIND_PASSWORD=${LDAP_ADMIN_PASSWORD}
     depends_on:
       - openldap
+      - phpldapadmin
 
   openldap:
     build: 
